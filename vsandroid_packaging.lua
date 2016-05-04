@@ -124,7 +124,8 @@
 	
 	
 	if _ACTION == "android" then
-		vstudio.sln2005.sectionmap["ConfigurationPlatforms"] = pack.configurationPlatforms
+		--vstudio.sln2005.sectionmap["ConfigurationPlatforms"] = pack.configurationPlatforms
+        vstudio.sln2005.projectConfigurationPlatforms = pack.configurationPlatforms
 	end
 	
 	
